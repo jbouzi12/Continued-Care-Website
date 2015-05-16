@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="cCareApp">
+<head>
+	<title>CPAP Proposal</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+
+</head>
+<body>
+	<ccare-header></ccare-header>
+    
+    <div ng-view></div>
+
+    <ccare-footer></ccare-footer>
+
+	<script src="angular/angular.min.js"></script>
+	<script src="angular/angular-route.min.js"></script>
+	<script src="angular/angular-resource.min.js"></script>
+	<script src="app.js"></script>
+	<script src="services/products.js"></script>
+	<script src="directives/directives.js"></script>
+	<script src="controllers/home-controller.js"></script>
+	<script src="controllers/products-controller.js"></script>
+</body>
+</html>
