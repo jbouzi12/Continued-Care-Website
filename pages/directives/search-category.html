@@ -1,24 +1,27 @@
 <section>
 
 	    	<!-- SORTING OPTIONS -->
+	<div class="row" id="search-bar">
+        <div class="col-md-4 col-md-offset-3">
 
  	<select ng-model="productsCtrl.category" id="sort-opt" class="form-control">
 		<option value="name">A-Z</option>
 		<option value="price">Low to High (Price)</option>
+		<option value="price">Low to High (Price)</option>
+		<option value="price">Low to High (Price)</option>
+
 	</select>
 
 	<!-- Search Bar -->
-<!-- 	<div class="row" id="search-bar">
-        <div class="col-md-4 col-md-offset-3">
- -->            <form action="" class="search-form">
-                <div class="form-group has-feedback">
-            		<label for="search" class="sr-only">Search</label>
-            		<input ng-model="productsCtrl.query" type="text" class="form-control" name="search" id="search" placeholder="Search for a product...">
-              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+    <form action="" class="search-form">
+        <div class="form-group has-feedback">
+    		<label for="search" class="sr-only">Search</label>
+    		<input ng-model="productsCtrl.query" type="text" class="form-control" name="search" id="search" placeholder="Search for a product...">
+      		<span class="glyphicon glyphicon-search form-control-feedback"></span>
             	</div>
             </form>
-<!--         </div>
+        </div>
     </div>
- -->
+
 
 </section>
