@@ -6,7 +6,8 @@ angular.module('cCareApp')
 	self.products = productService.products;
 	this.query = '';
 	this.sortBy= '';
-	this.type = '';
+	this.type = ['Nebulizer', 'CPAP Machines', 'Baby & Toddler', 'Hospital Beds', 'Oxygen', 'Ventilators', 'Provent Therapy', 'Power Solutions', 'Pain Relief','Mobility Assistive Equipment', 'Incontinence', 'CPAP Masks', ];
+	this.filterBy = '';
 
 
 	// $scope.predicate = 'name';
