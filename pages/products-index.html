@@ -6,12 +6,22 @@
 
 <hr>
 
-<div class="container">
+<div class="container portfolio-item">
 	<div class="row">
 		<div class="col-md-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.filterBy">
-			<p>{{product.id }}</p>
+<!-- 			<p>{{product.id }}</p>
 			<p>{{product.price | currency }}</p>
-			<a href="#/products/{{product.id}}">{{ product.name }}</a>
+			<a href="#/products/{{ product.id }}">{{ product.name }}</a> -->
+
+
+			<a href="#/product/{{product.id}}">
+                    <img class="img-responsive" src="{{ product.img }}" alt="{{product.description}}">
+                </a>
+                <h3>
+                    <a href="#/product/{{ product.id }}">{{ product.name }}</a>
+                </h3>
+                <p>{{ product.price | currency }}</p>
+
 		</div>
 	</div>
 </div>
