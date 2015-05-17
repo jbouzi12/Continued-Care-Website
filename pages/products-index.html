@@ -6,10 +6,12 @@
 
 <hr>
 
-<section class="row">
-	<div class="col-md-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.type">
-		<p>{{product.id }}</p>
-		<p>{{product.price | currency }}</p>
-		<a href="#/products/{{product.id}}">{{ product.name }}</a>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.filterBy">
+			<p>{{product.id }}</p>
+			<p>{{product.price | currency }}</p>
+			<a href="#/products/{{product.id}}">{{ product.name }}</a>
+		</div>
 	</div>
-</section>
+</div>
