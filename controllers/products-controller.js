@@ -11,7 +11,7 @@ angular.module('cCareApp')
 	this.sortBy= '';
 
 	// TODO: replace null with something that will return everything
-	this.type = [null, 'Nebulizer', 'CPAP Machines', 'Baby & Toddler', 'Hospital Beds', 'Oxygen', 'Ventilators', 'Provent Therapy', 'Power Solutions', 'Pain Relief','Mobility Assistive Equipment', 'Incontinence', 'CPAP Masks', ];
+	this.type = ['Nebulizer', 'CPAP Machines', 'Baby & Toddler', 'Hospital Beds', 'Oxygen', 'Ventilators', 'Provent Therapy', 'Power Solutions', 'Pain Relief','Mobility Assistive Equipment', 'Incontinence', 'CPAP Masks', ];
 	
 	this.filterBy = '';	
 
