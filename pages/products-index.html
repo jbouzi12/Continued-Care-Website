@@ -10,7 +10,7 @@
 
 <search-category></search-category>
 
-<div ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.category | filter: productsCtrl.query">
+<div ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.query">
 	<p>{{product.id }}</p>
 	<p>{{product.price | currency }}</p>
 	<a href="#/products/{{product.id}}">{{ product.name }}

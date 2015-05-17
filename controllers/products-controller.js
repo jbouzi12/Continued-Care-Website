@@ -5,7 +5,7 @@ angular.module('cCareApp')
 	var self = this;
 	self.products = productService.products;
 	this.query = '';
-	this.category= '';
+	this.sortBy= '';
 
 
 	// $scope.predicate = 'name';
