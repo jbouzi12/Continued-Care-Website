@@ -1,20 +1,25 @@
 <a href="#/">Home</a>
-<h1>Products INdex Page</h1>
-
-<!-- MALCOLM TODO: -->
-<!-- Use this page to create that grid system for -->
-<!-- the products,  -->
-<!-- 'ng-repeat' will looop through all the products -->
-<!-- in the products controller, kind of like a for loop -->
 
 <!-- SEARCH BAR -->
 
 <search-category></search-category>
 
-<div ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.category | filter: productsCtrl.query">
-	<p>{{product.id }}</p>
-	<p>{{product.price | currency }}</p>
-	<a href="#/products/{{product.id}}">{{ product.name }}
-</a>
-</div>
+<hr>
 
+<div class="container portfolio-item">
+	<div class="row">
+		<div class="col-sm-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.filterBy">
+
+			<a href="#/product/{{product.id}}" class="thumbnail">
+                
+                <img class="img-responsive" src="{{ product.img }}" alt="{{product.description}}">
+                <center>
+	                <h3>{{ product.name }}</h3>
+	                
+	                <p>{{ product.price | currency }}</p>
+	            </center>
+            </a>
+
+		</div>
+	</div>
+</div>

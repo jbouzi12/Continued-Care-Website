@@ -19,7 +19,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"200x10 in",
-			productType:"inhaler",
+			productType:"Baby & Toddler",
 			vid:[]
 
 		},
@@ -37,7 +37,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"CPAP Machines",
 			vid:[]
 
 		},
@@ -55,7 +55,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"CPAP Masks",
 			vid:[]
 
 		},
@@ -73,7 +73,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Hospital Beds",
 			vid:[]
 
 		},
@@ -91,7 +91,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Incontinence",
 			vid:[]
 
 		},
@@ -109,7 +109,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Mobility Assistive Equipment",
 			vid:[]
 
 		},
@@ -127,7 +127,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Nebulizers",
 			vid:[]
 
 		},
@@ -145,7 +145,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Oxygen",
 			vid:[]
 
 		},
@@ -163,7 +163,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Pain Relief",
 			vid:[]
 
 		},
@@ -181,7 +181,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Power Solutions",
 			vid:[]
 
 		},
@@ -199,7 +199,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Provent Therapy",
 			vid:[]
 
 		},
@@ -217,7 +217,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Ventilators",
 			vid:[]
 
 		},
@@ -235,7 +235,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Nebulizers",
 			vid:[]
 
 		},
@@ -253,7 +253,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Nebulizers",
 			vid:[]
 
 		},
@@ -271,7 +271,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Nebulizers",
 			vid:[]
 
 		},
@@ -289,7 +289,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"CPAP Machines",
 			vid:[]
 
 		},
@@ -307,7 +307,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Baby & Toddler",
 			vid:[]
 
 		},
@@ -325,7 +325,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Hospital Beds",
 			vid:[]
 
 		},
@@ -343,7 +343,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Oxygen",
 			vid:[]
 
 		},
@@ -361,7 +361,7 @@ angular.module('cCareApp')
 			resources:[],
 			weight:0,
 			dimensions:"50 x 100in",
-			productType:"some type",
+			productType:"Ventilators",
 			vid:[]
 
 		}

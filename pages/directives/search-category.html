@@ -1,11 +1,27 @@
 <section>
-	<label>Search: <input ng-model="productsCtrl.query" type="text" placeholder="Search for a product..." autofocus></label>
 
 	<!-- SORTING OPTIONS -->
-	<p>Refine By:</p>
-	<select ng-model="productsCtrl.category">
+
+    <label>Sort By:</label>
+ 	<select ng-model="productsCtrl.sortBy" ng-selected="0"id="sort-opt" class="form-control">
+ 		<opttion value="">Filter By:</opttion>
 		<option value="name">A-Z</option>
 		<option value="price">Low to High (Price)</option>
+
 	</select>
+
+	<label>Product Types:</label>
+ 	<select ng-model="productsCtrl.filterBy" ng-options="type for type in productsCtrl.type" id="sort-opt" class="form-control">
+
+	</select>
+
+	<!-- Search Bar -->
+    <!-- <form action="" class="search-form">
+        <div class="form-group has-feedback">
+    		<label for="search" class="sr-only">Search</label>
+    		<input ng-model="productsCtrl.query" type="text" class="form-control" name="search" id="search" placeholder="Search for a product...">
+      		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+    	</div>
+    </form> -->
 
 </section>
