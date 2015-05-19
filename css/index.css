@@ -84,7 +84,7 @@ ul img:hover {
 }
 
 .footer-highlight a:hover {
-	color: #06AD62;
+	color: 	#06AD62;
 	text-decoration: none;
 }
 
@@ -100,17 +100,31 @@ ul img:hover {
 	margin-top: -.5em;
 }
 
+.top-top {
+	position: relative;
+	right: 3em;
+	font-size: .8em;
+	color: rgb(63, 62, 62);
+}
+
+.top-list a {
+	color: rgb(63, 62, 62);
+	position: relative;
+	right: 1em;
+	margin-top: -1.3em;
+}
+
+
 #header {
 	background-color: white;
 	border-bottom: none;
-
 }
 
-#header a {
+#header-nav a {
 	color: black;
 }
 
-#header a:hover {
+#header-nav a:hover {
 	color: #06BA6A;
 }
 
@@ -127,4 +141,10 @@ ul img:hover {
 .second-row img {
 	height: 15em;
 	width: 16em;
+}
+
+.top-header {
+	background-color: #f7f7f7;
+	height: 1.5em;
+	width: 100%
 }
