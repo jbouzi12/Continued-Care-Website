@@ -6,6 +6,10 @@ body {
 	text-align: center;
 }
 
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
 header {
 	height: 114px;
 	background-color: #dbdbdb;
@@ -40,8 +44,9 @@ footer .contianer {
 
 #footer {
 	width: 100%;
-	background-color: #93866d;
-	
+	/*background-color: #93866d;*/
+	background-color: #0c1827;
+	font-size: .85em;
 }
 
 .footer {
@@ -53,6 +58,35 @@ footer .contianer {
 	color: white;
 }
 
+div h4 {
+	color: #93866d;
+}
+
+hr {
+	border-color: #93866d;
+	border-width: .9px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul img {
+	height: 3em;
+	width: 3em;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+
+ul img:hover {
+	filter: invert(50%);
+	-webkit-filter: invert(50%);
+}
+
+.footer-highlight a:hover {
+	color: #06AD62;
+	text-decoration: none;
+}
 
 
 .mid-box {
