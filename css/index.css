@@ -105,6 +105,7 @@ ul img:hover {
 	right: 3em;
 	font-size: .8em;
 	color: rgb(63, 62, 62);
+	display: -webkit-inline-box;
 }
 
 .top-list a {
