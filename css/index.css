@@ -6,6 +6,10 @@ body {
 	text-align: center;
 }
 
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
 header {
 	height: 114px;
 	background-color: #dbdbdb;
@@ -18,20 +22,14 @@ header {
 #banner {
 	width: 100%;
 	height: 500px;
-	position: fixed;
-	top: 100px;
 	background-color: #707070;
-	z-index: 999;
 }
 
 
 
 #content {
 	width: 100%;
-	position: relative;
-	top: 825px;
-	background-color: #ebebeb;
-	height: 1050px;
+	
 }
 
 footer .contianer {
@@ -46,13 +44,13 @@ footer .contianer {
 
 #footer {
 	width: 100%;
-	background-color: #93866d;
-	
+	/*background-color: #93866d;*/
+	background-color: #0c1827;
+	font-size: .85em;
 }
 
 .footer {
 	color: white;
-	margin-top: 40em;
 	
 }
 
@@ -60,6 +58,35 @@ footer .contianer {
 	color: white;
 }
 
+div h4 {
+	color: #93866d;
+}
+
+hr {
+	border-color: #93866d;
+	border-width: .9px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul img {
+	height: 3em;
+	width: 3em;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+
+ul img:hover {
+	filter: invert(50%);
+	-webkit-filter: invert(50%);
+}
+
+.footer-highlight a:hover {
+	color: 	#06AD62;
+	text-decoration: none;
+}
 
 
 .mid-box {
@@ -73,17 +100,31 @@ footer .contianer {
 	margin-top: -.5em;
 }
 
+.top-top {
+	position: relative;
+	right: 3em;
+	font-size: .8em;
+	color: rgb(63, 62, 62);
+}
+
+.top-list a {
+	color: rgb(63, 62, 62);
+	position: relative;
+	right: 1em;
+	margin-top: -1.3em;
+}
+
+
 #header {
 	background-color: white;
 	border-bottom: none;
-
 }
 
-#header a {
+#header-nav a {
 	color: black;
 }
 
-#header a:hover {
+#header-nav a:hover {
 	color: #06BA6A;
 }
 
@@ -100,4 +141,10 @@ footer .contianer {
 .second-row img {
 	height: 15em;
 	width: 16em;
+}
+
+.top-header {
+	background-color: #f7f7f7;
+	height: 1.5em;
+	width: 100%
 }
