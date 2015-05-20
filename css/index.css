@@ -135,16 +135,21 @@ ul img:hover {
 
 .second-row {
 	margin-top: 2em;
-	
+	height: 24em;
+	padding-top: 3em;
+	margin-bottom: 4em;
 }
 
-.second-row img {
-	height: 15em;
-	width: 16em;
+
+.first-row {
+	height: 24em;
+	padding-top: 6em;
 }
+
 
 .top-header {
 	background-color: #f7f7f7;
 	height: 1.5em;
 	width: 100%
 }
+
