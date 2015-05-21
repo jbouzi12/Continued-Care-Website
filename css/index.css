@@ -154,7 +154,12 @@ ul img:hover {
 	width: 100%
 }
 
-#carousel-right {
-	right: -2.86em;
+#carousel-left img {
+	float: left;
+	margin-left: 2.9em;
+}
+
+#carousel-right img {
+	float: right;
 }
 
