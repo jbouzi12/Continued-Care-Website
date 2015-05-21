@@ -3,7 +3,7 @@
 }
 
 .portfolio-item {
-	margin-top: 2em;
+	margin-top: 8em;
 }
 
 .thumbnail {
@@ -14,7 +14,22 @@
 	color: rgb(1, 176, 111);
 }
 
+.portfolio-item h3 {
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+
+.portfolio-item p {
+	margin-top: -.8em;
+	margin-bottom: 4em;
+	color: grey;
+}
+
 .portfolio-item p:hover {
 	text-decoration: none !important;	
+}
+
+#sort-opt.ng-valid-parse option {
+	background-color: red;
 }
 
