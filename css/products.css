@@ -1,0 +1,20 @@
+.search-area {
+	margin-top: 8em;
+}
+
+.portfolio-item {
+	margin-top: 2em;
+}
+
+.thumbnail {
+	border: none;
+}
+
+.portfolio-item h3,p  {
+	color: rgb(1, 176, 111);
+}
+
+.portfolio-item p:hover {
+	text-decoration: none !important;	
+}
+
