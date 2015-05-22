@@ -10,8 +10,13 @@
 	border: none;
 }
 
+.thumbnail img {
+	/*border-bottom: 1px solid rgb(1, 176, 111);*/
+	padding-bottom: 7px;
+}
+
 .portfolio-item h3,p  {
-	color: rgb(1, 176, 111);
+	color: grey;
 }
 
 .portfolio-item h3 {
@@ -22,7 +27,7 @@
 .portfolio-item p {
 	margin-top: -.8em;
 	margin-bottom: 4em;
-	color: grey;
+	color: black;
 }
 
 .portfolio-item p:hover {
@@ -30,6 +35,6 @@
 }
 
 #sort-opt.ng-valid-parse option {
-	background-color: red;
+	background-color: 
 }
 
