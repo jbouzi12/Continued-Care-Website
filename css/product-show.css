@@ -15,22 +15,41 @@
 	width: 45%
 }
 
+.product-info h2 {
+	color: #93866d;
+}
+
+.product-info h3 {
+	font-size: 1.6em;
+}
+
+.product-info p {
+	color: black;
+}
+
+.weight-dim p {
+	font-size: .85em;
+	color: #333;
+}
+
 #features {
 	float: left;
 	margin-bottom: 4em;
 	text-align: left;
 	margin-top: 2em;
 	margin-left: -6.6em;
+	color: black;
 }
 
 #features h3 {
 	position: relative;
+	color: #93866d;
 }
 
 #features li {
-	font-size: .8em;
+	font-size: .9em;
 	position: relative;
-	right: 3.5em;
+	right: 3.2em;
 }
 
 select {
@@ -40,9 +59,15 @@ select {
 }
 
 #to-cart-but {
-	border: 2px solid green;
+	border: 2px solid #06BA6A;
 	clear: both;
 	float: left;
 	background-color: transparent;
-	color: green;
+	color: #06BA6A;
+	transition: .2s;
+}
+
+#to-cart-but:hover {
+	background-color: #06BA6A;
+	color: white;
 }
