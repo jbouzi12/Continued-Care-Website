@@ -33,8 +33,7 @@
 .portfolio-item p:hover {
 	text-decoration: none !important;	
 }
-
-#sort-opt.ng-valid-parse option {
-	background-color: 
+select {
+	background-color: red;
 }
 
