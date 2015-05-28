@@ -175,3 +175,22 @@ ul img:hover {
 	width: 100%;
 }
 
+.first {
+	background-image: url('../imgs/nebulizer.jpg');
+	height: 23em;
+}
+
+.second {
+	background-image: url('../imgs/baby-toddler.jpg');
+	height: 23em;
+}
+
+.third {
+	background-image: url('../imgs/cpap-machine.jpg');
+	height: 23em;
+}
+
+.fourth {
+	background-image: url('../imgs/pain-relief.jpg');
+	height: 23em;
+}

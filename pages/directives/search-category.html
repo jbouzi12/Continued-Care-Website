@@ -1,14 +1,16 @@
 <section>
 
-	<!-- SORTING OPTIONS -->
+	<!-- Sort By Price & Name -->
 
     <label>Sort By:</label>
  	<select ng-model="productsCtrl.sortBy" ng-selected="0"id="sort-opt" class="form-control">
- 		<opttion value="">Filter By:</opttion>
+ 		<option value="">Filter By:</option>
 		<option value="name">A-Z</option>
 		<option value="price">Low to High (Price)</option>
 
 	</select>
+
+    <!-- Filter By Product Type -->
 
 	<label>Product Types:</label>
  	<select ng-model="productsCtrl.filterBy" ng-options="type for type in productsCtrl.type" id="sort-opt" class="form-control">
