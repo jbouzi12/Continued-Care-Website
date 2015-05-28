@@ -1,3 +1,7 @@
+#product-show {
+	margin-top: 8em;
+}
+
 #show-img {
 	height: 18em;
 	float: right;
@@ -15,6 +19,8 @@
 	float: left;
 	margin-bottom: 4em;
 	text-align: left;
+	margin-top: 2em;
+	margin-left: -6.6em;
 }
 
 #features h3 {
@@ -22,13 +28,21 @@
 }
 
 #features li {
-	font-size: 1em;
+	font-size: .8em;
 	position: relative;
-	right: 2.8em;
+	right: 3.5em;
 }
 
 select {
 	float: left;
 	background: white;
 
+}
+
+#to-cart-but {
+	border: 2px solid green;
+	clear: both;
+	float: left;
+	background-color: transparent;
+	color: green;
 }
