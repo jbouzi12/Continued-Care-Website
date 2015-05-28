@@ -1,10 +1,7 @@
-<a href="#/products">Back</a>
-<h1>Products-Show Page</h1>
 
-<hr />
 
-<section>
 
+<section id="product-show">
 	<div class="container">
 		<img id="show-img" src="{{ showCtrl.product.img }}">
 
@@ -17,7 +14,9 @@
 		</div>
 
 		<select></select>
-		
+
+		<button id="to-cart-but">Add To Cart</button>
+
 		<div id="features">
 			<h3>Features:</h3>
 			<ul ng-repeat="feature in showCtrl.product.features">
