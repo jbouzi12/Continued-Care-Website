@@ -30,7 +30,7 @@
 	color: black;
 }
 
-.portfolio-item p:hover {
+.portfolio-item p a:hover {
 	text-decoration: none !important;	
 }
 select {
