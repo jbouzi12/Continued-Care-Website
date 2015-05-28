@@ -4,17 +4,19 @@
 <hr />
 
 <section>
-	<img src="{{ showCtrl.product.img }}">
+	<img id="show-img" src="{{ showCtrl.product.img }}">
 	<h2>{{ showCtrl.product.name }}</h2>
 	<h3>{{ showCtrl.product.price }}</h3>
 	<p>{{ showCtrl.product.description }}</p>
 	<p>Weight: {{ showCtrl.product.weight }}</p>
 	<p>Dimensions: {{ showCtrl.product.dimensions }}</p>
-	<h3>Features</h3>
-	<ul ng-repeat="feature in showCtrl.product.features">
-		<li>{{ feature }}</li>
-	</ul>
 
+	<div id="features">
+		<h3>Features:</h3>
+		<ul ng-repeat="feature in showCtrl.product.features">
+			<li>{{ feature }}</li>
+		</ul>
+	</div>
 
 </section>
 
