@@ -27,3 +27,8 @@
 	right: 2.8em;
 }
 
+select {
+	float: left;
+	background: white;
+
+}
