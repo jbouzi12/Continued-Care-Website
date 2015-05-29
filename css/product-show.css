@@ -51,9 +51,9 @@
 	margin-bottom: 4em;
 	text-align: left;
 	margin-top: 2em;
-	margin-left: -6.6em;
+	margin-left: -5.6em;
 	color: #333;
-	line-height: 1;
+	line-height: .7;
 	font-family: 'Playfair Display', serif;
 	/*font-family: Georgia, Times New Roman;*/
 	font-weight: 300;
@@ -64,6 +64,7 @@
 	color: #93866d;
 	font-family: NeutraDemi;
 	font-weight: bold;
+	margin-left: -.7em;
 }
 
 #features li {
