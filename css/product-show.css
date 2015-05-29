@@ -1,5 +1,5 @@
 @font-face { font-family: NeutraDemi; src: url('NeutraDemi.ttf'); } 
-@font-face { font-family: FuturaKoyu; src: url('FuturaKoyu.ttf'); } 
+@font-face { font-family: Georgia; src: url('Georgia.ttf'); } 
 
 
 #product-show {
@@ -33,13 +33,17 @@
 
 .product-info p {
 	color: #333;
-	font-family: Arial,verdana,sans-serif;
+	font-family: 'Playfair Display', serif;
+	/*font-family: Georgia, Times New Roman;*/
+	font-weight: 500;
 }
 
 .weight-dim p {
 	font-size: .85em;
 	color: #333;
-	font-family: Arial,verdana,sans-serif;
+	font-family: 'Playfair Display', serif;
+	/*font-family: Georgia, Times New Roman;*/
+	font-weight: 500;
 }
 
 #features {
@@ -48,9 +52,11 @@
 	text-align: left;
 	margin-top: 2em;
 	margin-left: -6.6em;
-	color: black;
+	color: #333;
 	line-height: 1;
-	font-family: Arial,verdana,sans-serif;
+	font-family: 'Playfair Display', serif;
+	/*font-family: Georgia, Times New Roman;*/
+	font-weight: 300;
 }
 
 #features h3 {
