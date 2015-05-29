@@ -47,6 +47,7 @@ footer .contianer {
 	/*background-color: #93866d;*/
 	background-color: #0c1827;
 	font-size: .85em;
+	clear: both;
 }
 
 .footer {
