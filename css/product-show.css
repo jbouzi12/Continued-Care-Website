@@ -1,3 +1,7 @@
+@font-face { font-family: NeutraDemi; src: url('NeutraDemi.ttf'); } 
+@font-face { font-family: FuturaKoyu; src: url('FuturaKoyu.ttf'); } 
+
+
 #product-show {
 	margin-top: 8em;
 }
@@ -17,19 +21,25 @@
 
 .product-info h2 {
 	color: #93866d;
+	font-family: NeutraDemi;
+	font-weight: bold;
 }
 
 .product-info h3 {
 	font-size: 1.6em;
+	margin-top: -.2em;
+	font-family: NeutraDemi;
 }
 
 .product-info p {
-	color: black;
+	color: #333;
+	font-family: Arial,verdana,sans-serif;
 }
 
 .weight-dim p {
 	font-size: .85em;
 	color: #333;
+	font-family: Arial,verdana,sans-serif;
 }
 
 #features {
@@ -39,11 +49,15 @@
 	margin-top: 2em;
 	margin-left: -6.6em;
 	color: black;
+	line-height: 1;
+	font-family: Arial,verdana,sans-serif;
 }
 
 #features h3 {
 	position: relative;
 	color: #93866d;
+	font-family: NeutraDemi;
+	font-weight: bold;
 }
 
 #features li {
