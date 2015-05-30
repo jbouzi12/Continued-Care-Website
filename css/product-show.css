@@ -77,8 +77,17 @@
 #features li {
 	font-size: .85em;
 	position: relative;
-	right: 3.2em;
+	right: 4.7em;
+	list-style: none;
 }
+
+#features li:before {
+	content: ' ► ';
+	color: #06BA6A;
+	font-size: .7em;
+	margin-right: 1em;
+}
+
 
 select {
 	float: left;
