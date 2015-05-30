@@ -1,5 +1,10 @@
 .search-area {
-	margin-top: 8em;
+	margin-top: 10em;
+	background-color: #93866d;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px silver;
 }
 
 #sort-opt.form-control {
@@ -9,6 +14,7 @@
   line-height: 1;
   border: 0;
   border-radius: 0;
+  color: white;
 }
 
 .portfolio-item {
