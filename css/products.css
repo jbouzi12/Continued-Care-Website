@@ -2,6 +2,15 @@
 	margin-top: 8em;
 }
 
+#sort-opt.form-control {
+	background: transparent;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+}
+
 .portfolio-item {
 	margin-top: 8em;
 }
@@ -17,23 +26,24 @@
 
 .portfolio-item h3,p  {
 	color: grey;
+	font-family: NeutraDemi;
 }
 
 .portfolio-item h3 {
-	font-size: 1.2em;
+	font-size: 1.7em;
 	margin-top: 1em;
+	color: #93866d;
 }
 
 .portfolio-item p {
 	margin-top: -.8em;
 	margin-bottom: 4em;
-	color: black;
+	color: #0c1827;
+	font-size: 1.4em;
 }
 
 .portfolio-item p a:hover {
 	text-decoration: none !important;	
 }
-select {
-	background-color: red;
-}
+
 
