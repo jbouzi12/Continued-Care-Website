@@ -285,10 +285,8 @@ ul img:hover {
 	position:relative;
 }
 .dropdown-submenu > .dropdown-menu{
-	top:0;
-	left:100%;
+	left:10%;
 	margin-top:-6px;
-	margin-left:-1px;
 	-webkit-border-radius:0 6px 6px 6px;
 	-moz-border-radius:0 6px 6px 6px;
 	border-radius:0 6px 6px 6px;
