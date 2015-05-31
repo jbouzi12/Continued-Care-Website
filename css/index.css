@@ -239,3 +239,14 @@ ul img:hover {
 	color: white;
 }
 
+.second-row-title {
+	background-color: rgba(147, 134, 109, 0.48);
+	position: relative;
+  bottom: .7em;
+  width: 110%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-left: -.5em;
+  color: white;
+}
+
