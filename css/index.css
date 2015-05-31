@@ -4,6 +4,7 @@
 
 body {
 	text-align: center;
+	background-color: rgb(252, 254, 252);
 }
 
 html {
@@ -180,22 +181,104 @@ ul img:hover {
 	width: 100%;
 }
 
+.left-title {
+	float: right;
+	margin-top: -4em;
+	background-color: #06AD62;
+	padding: 1em 1em 1em 4em;
+	color: white;
+	margin-right: -.8em;
+}
+
+.right-title {
+	float: left;
+	margin-top: -4em;
+	background-color: #0c1827;
+	padding: 1em 4em 1em 1em;
+	color: white;
+	margin-left: -.65em;
+}
+
+.cpap-row {
+	height: 20em;
+}
+
 .first {
-	background-image: url('../imgs/nebulizer.jpg');
-	height: 23em;
+	
+	background-image: url('../imgs/cpapimg.jpg');
+	height: 30em;
+	width: 24em;
+	background-size: cover;
+	position: relative;
 }
 
 .second {
-	background-image: url('../imgs/baby-toddler.jpg');
-	height: 23em;
+	background-image: url('../imgs/nebulizer.jpg');
+	height: 30em;
+	width: 24em;
+	background-size: cover;
+	position: relative;
 }
 
 .third {
-	background-image: url('../imgs/cpap-machine.jpg');
-	height: 23em;
+	background-image: url('../imgs/airsense.jpg');
+	height: 30em;
+	width: 26em;
+	background-size: cover;
+	position: relative;
 }
 
-.fourth {
-	background-image: url('../imgs/pain-relief.jpg');
-	height: 23em;
+.view-all {
+	bottom: 0;
+	position: absolute;
+	color: #389981;
+	border: 4px solid #389981;
+	background-color: transparent;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 1em;
+	transition-duration: .5s;
+	margin-left: -1.7em;
 }
+
+.view-all:hover {
+	background-color: #389981;
+	color: white;
+}
+
+.second-row-title {
+	background-color: rgba(147, 134, 109, 0.48);
+	position: relative;
+  bottom: .7em;
+  width: 110%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-left: -.5em;
+  color: white;
+}
+
+.second-spons {
+	margin-top: 2em;
+}
+
+.sponsors {
+	position: relative;
+	top: 4em;
+	margin-bottom: 8em;
+}
+
+.height {
+	height: .5em;
+}
+
+.sponsor {
+	max-width: 10em;
+	-webkit-filter: grayscale(1);
+}
+
+.sponsor:hover {
+	-webkit-filter: grayscale(0);
+}
+
+
+
