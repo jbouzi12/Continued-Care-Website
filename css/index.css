@@ -291,6 +291,14 @@ ul img:hover {
 	-moz-border-radius:0 6px 6px 6px;
 	border-radius:0 6px 6px 6px;
 }
+.dropdown-submenu > .dropdown-menu.second-level{
+	left: 100%;
+	top: 0;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+
+}
 .dropdown-submenu:hover > .dropdown-menu{
 	display:block;
 }
