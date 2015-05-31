@@ -1,10 +1,5 @@
-<a href="#/products">Back</a>
-<h1>Products-Show Page</h1>
 
-<hr />
-
-<section>
-
+<section id="product-show">
 	<div class="container">
 		<img id="show-img" src="{{ showCtrl.product.img }}">
 
@@ -12,10 +7,19 @@
 			<h2>{{ showCtrl.product.name }}</h2>
 			<h3>{{ showCtrl.product.price }}</h3>
 			<p>{{ showCtrl.product.description }}</p>
-			<p>Weight: {{ showCtrl.product.weight }}</p>
-			<p>Dimensions: {{ showCtrl.product.dimensions }}</p>
+		<hr></hr>
+
+			<div class="weight-dim">
+				<p>Weight: {{ showCtrl.product.weight }}</p>
+				<p>Dimensions: {{ showCtrl.product.dimensions }}</p>
+			</div>
 		</div>
-		
+
+		<select class="amount"></select>
+
+		<button id="to-cart-but">Add To Cart</button>
+
+
 		<div id="features">
 			<h3>Features:</h3>
 			<ul ng-repeat="feature in showCtrl.product.features">

@@ -62,6 +62,8 @@ footer .contianer {
 
 div h4 {
 	color: #93866d;
+	font-family: NeutraDemi;
+	font-weight: bold;
 }
 
 hr {
@@ -69,7 +71,7 @@ hr {
 	border-width: .9px;
 }
 
-ul {
+#footer-list {
 	list-style-type: none;
 }
 
@@ -125,6 +127,8 @@ ul img:hover {
 
 #header-nav a {
 	color: black;
+	font-family: NeutraDemi;
+
 }
 
 #header-nav a:hover {
