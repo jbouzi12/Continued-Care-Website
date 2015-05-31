@@ -1,3 +1,11 @@
+@font-face { font-family: NeutraDemi; src: url('NeutraDemi.ttf'); } 
+@font-face { font-family: Georgia; src: url('Georgia.ttf'); } 
+
+
+#product-show {
+	margin-top: 8em;
+}
+
 #show-img {
 	height: 18em;
 	float: right;
@@ -11,19 +19,95 @@
 	width: 45%
 }
 
+.product-info h2 {
+	color: #93866d;
+	font-family: NeutraDemi;
+	font-weight: bold;
+
+}
+
+.product-info h3 {
+	font-size: 1.6em;
+	margin-top: -.2em;
+	font-family: NeutraDemi;
+}
+
+.product-info p {
+	color: #555;
+	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: Georgia, Times New Roman;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 450;
+}
+
+.weight-dim {
+	margin-bottom: 1em;
+
+}
+
+.weight-dim p {
+	font-size: .8em;
+	color: #333;
+	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: Georgia, Times New Roman;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: .7;
+}
+
 #features {
 	float: left;
 	margin-bottom: 4em;
 	text-align: left;
+	margin-top: 2em;
+	margin-left: -5.6em;
+	color: #333;
+	line-height: .7;
+	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: Georgia, Times New Roman;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
 }
 
 #features h3 {
 	position: relative;
+	color: #93866d;
+	font-family: NeutraDemi;
+	font-weight: bold;
+	margin-left: -.7em;
 }
 
 #features li {
-	font-size: 1em;
+	font-size: .85em;
 	position: relative;
-	right: 2.8em;
+	right: 4.7em;
+	list-style: none;
 }
 
+#features li:before {
+	content: ' ► ';
+	color: #06BA6A;
+	font-size: .7em;
+	margin-right: 1em;
+}
+
+
+.amount {
+	float: left;
+	background: white;
+
+}
+
+#to-cart-but {
+	border: 2px solid #06BA6A;
+	clear: both;
+	float: left;
+	background-color: transparent;
+	color: #06BA6A;
+	transition: .2s;
+}
+
+#to-cart-but:hover {
+	background-color: #06BA6A;
+	color: white;
+}
