@@ -4,6 +4,7 @@
 
 body {
 	text-align: center;
+	background-color: rgb(252, 254, 252);
 }
 
 html {
@@ -194,7 +195,9 @@ ul img:hover {
 	margin-left: -.65em;
 }
 
-
+.cpap-row {
+	height: 20em;
+}
 
 .first {
 	
@@ -258,6 +261,10 @@ ul img:hover {
 	position: relative;
 	top: 4em;
 	margin-bottom: 8em;
+}
+
+.height {
+	height: .5em;
 }
 
 .sponsor {
