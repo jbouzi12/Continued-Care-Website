@@ -30,7 +30,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:99.99,
-			onSale: false,
+			onSale: true,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
@@ -48,7 +48,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:199.99,
-			onSale: false,
+			onSale: true,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
@@ -120,7 +120,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:2499.99,
-			onSale: true,
+			onSale: false,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
@@ -138,7 +138,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:299.99,
-			onSale: true,
+			onSale: false,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
@@ -228,7 +228,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:89.99,
-			onSale: false,
+			onSale: true,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
@@ -246,7 +246,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:49.99,
-			onSale: false,
+			onSale: true,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
@@ -354,7 +354,7 @@ angular.module('cCareApp')
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
 			price:700.99,
-			onSale: true,
+			onSale: false,
 			salePrice: 0,
 			reviews: [],
 			features:['AutoSet algorithm auto-adjusts to maintain optimal therapy pressure', 'Climate Control maintains ideal humidification according to real-time environment', 'Easy-Breathe motor offers the quietest therapy available', 'Easy-to-use controls and color LCD make menu navigation simple and intuitive'],
