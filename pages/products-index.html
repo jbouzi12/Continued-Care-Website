@@ -9,7 +9,7 @@
 <div class="container portfolio-item">
 	<div class="row">
 		<div class="col-sm-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.filterBy">
-
+		<span ng-show="{{ product.onSale }}"class="sale-icon">Sale</span>
 			<a href="#/products/{{product.id}}" class="thumbnail">
                 
                 <img class="img-responsive" src="{{ product.img }}" alt="{{product.description}}">
