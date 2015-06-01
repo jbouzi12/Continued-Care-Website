@@ -11,12 +11,12 @@ angular.module('cCareApp')
 	self.sortBy= '';
 
 	// TODO: replace null with something that will return everything
-	self.type = ['All', 'Nebulizer', 'CPAP Machines', 'Baby & Toddler', 'Hospital Beds', 'Oxygen', 'Ventilators', 'Provent Therapy', 'Power Solutions', 'Pain Relief','Mobility Assistive Equipment', 'Incontinence', 'CPAP Masks', ];
+	self.type = ['Nebulizer', 'CPAP Machines', 'Baby & Toddler', 'Hospital Beds', 'Oxygen', 'Ventilators', 'Provent Therapy', 'Power Solutions', 'Pain Relief','Mobility Assistive Equipment', 'Incontinence', 'CPAP Masks', ];
 	
 	self.filterBy = '';	
 
 	if (self.filterBy == "All") {
-		return self.products;
+		return '';
 	}
 
 }])
