@@ -52,4 +52,13 @@
 	text-decoration: none !important;	
 }
 
+.sale-icon {
+	background-color: red;
+	border-radius: 60%;
+	color: white;
+	padding: 5px;
+	position: absolute;
+	right: 2.5em;
+
+}
 
