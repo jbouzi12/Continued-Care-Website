@@ -11,15 +11,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-header {
-	height: 114px;
-	background-color: #dbdbdb;
-	width: 100%;
-	z-index: 10;
-	position: fixed;
-	margin-top: -1em;
-}
-
 #banner {
 	width: 100%;
 	height: 326x;
@@ -121,8 +112,8 @@ ul img:hover {
 
 
 #header {
-	background-color: white;
-	border-bottom: none;
+	background-color: rgb(240, 236, 227);
+	box-shadow: 3px 3px rgba(5, 5, 5, 0.28);
 }
 
 #header-nav a {
@@ -163,7 +154,7 @@ ul img:hover {
 
 
 .top-header {
-	background-color: #f7f7f7;
+	background-color: #D0CCCC;
 	height: 1.5em;
 	width: 100%
 }
@@ -280,5 +271,37 @@ ul img:hover {
 	-webkit-filter: grayscale(0);
 }
 
+.dropdown-submenu{
+	position:relative;
+}
+.dropdown-submenu > .dropdown-menu{
+	left:10%;
+	margin-top:-6px;
+	-webkit-border-radius:0 6px 6px 6px;
+	-moz-border-radius:0 6px 6px 6px;
+	border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu > .dropdown-menu.second-level{
+	left: 100%;
+	top: 0;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
 
-
+}
+.dropdown-submenu:hover > .dropdown-menu{
+	display:block;
+}
+.dropdown-submenu:hover > a:after{
+	border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left{
+	float:none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu{
+	left:-100%;
+	margin-left:10px; 
+	-webkit-border-radius:6px 0 6px 6px;
+	-moz-border-radius:6px 0 6px 6px;
+	border-radius:6px 0 6px 6px;
+}
