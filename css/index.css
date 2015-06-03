@@ -217,7 +217,7 @@ ul img:hover {
 	
 	background-image: url('../imgs/cpapimg.jpg');
 	height: 30em;
-	width: 24em;
+	width: 33.3%;
 	background-size: cover;
 	position: relative;
 }
@@ -225,7 +225,7 @@ ul img:hover {
 .second {
 	background-image: url('../imgs/nebulizer.jpg');
 	height: 30em;
-	width: 24em;
+	width: 33.3%;
 	background-size: cover;
 	position: relative;
 }
@@ -233,7 +233,7 @@ ul img:hover {
 .third {
 	background-image: url('../imgs/airsense.jpg');
 	height: 30em;
-	width: 26em;
+	width: 33.3%;
 	background-size: cover;
 	position: relative;
 }
