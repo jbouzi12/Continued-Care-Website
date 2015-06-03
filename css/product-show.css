@@ -6,6 +6,37 @@
 	margin-top: 8em;
 }
 
+.product-show-header {
+	margin-left: 1em;
+}
+
+#p-show-title {
+	font-family: NeutraDemi;
+	font-weight: bolder;
+	color: #389981;
+	margin-top: -2em;
+}
+
+#p-show-title span{
+}
+
+#p-show-title span:before,
+span:after {
+  border-top: 1px solid black;
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 30%;
+  position: absolute;
+  left: 0;
+  color: #389981;
+  top: 1em;
+}
+#p-show-title span:after {
+   right: 0;  
+   left: auto; 
+}
+
 #show-img {
 	height: 18em;
 	float: right;

@@ -119,7 +119,7 @@ ul img:hover {
 #header-nav a {
 	color: black;
 	font-family: NeutraDemi;
-
+	letter-spacing: 1px;
 }
 
 #header-nav a:hover {
