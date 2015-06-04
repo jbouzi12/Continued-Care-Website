@@ -1,20 +1,44 @@
-.search-area {
+.p-index-img {
+	background-size: cover;
+	width: 100%
+}
+
+#p-index-title {
+	font-family: NeutraDemi;
+	font-weight: bolder;
+	color: #389981;
+	margin-top: -7em;
+}
+
+#p-index-title h1 {
+	font-size: 4em;
+}
+
+.product-index-header {
 	margin-top: 10em;
-	background-color: #93866d;
+	margin-left: 1em;
+}
+
+.search-area {
+	margin-top: 1em;
+	/*background-color: #93866d;*/
 	width: 50%;
+	/*box-shadow: 5px 5px 5px silver;*/
+	font-family: NeutraDemi;
+	letter-spacing: 2px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 5px 5px 5px silver;
 }
 
 #sort-opt.form-control {
-	background: transparent;
+  background: transparent;
   padding: 5px;
   font-size: 16px;
   line-height: 1;
   border: 0;
   border-radius: 0;
-  color: white;
+  color: black;
+  font-family: NeutraDemi;
 }
 
 .portfolio-item {
@@ -28,6 +52,10 @@
 .thumbnail img {
 	/*border-bottom: 1px solid rgb(1, 176, 111);*/
 	padding-bottom: 7px;
+}
+
+.item:hover {
+	-webkit-filter: brightness(1.1);
 }
 
 .portfolio-item h3,p  {

@@ -79,7 +79,7 @@ ul img:hover {
 }
 
 .footer-highlight a:hover {
-	color: 	#06AD62;
+	color: 	#389981;
 	text-decoration: none;
 }
 
@@ -113,17 +113,17 @@ ul img:hover {
 
 #header {
 	background-color: rgb(240, 236, 227);
-	box-shadow: 3px 3px rgba(5, 5, 5, 0.28);
+	box-shadow: 7px 2px rgba(5, 5, 5, 0.28);
 }
 
 #header-nav a {
 	color: black;
 	font-family: NeutraDemi;
-
+	letter-spacing: 1px;
 }
 
 #header-nav a:hover {
-	color: #06BA6A;
+	color: #389981;
 }
 
 
@@ -156,7 +156,8 @@ ul img:hover {
 .top-header {
 	background-color: #D0CCCC;
 	height: 1.5em;
-	width: 100%
+	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #carousel-left img {
@@ -175,19 +176,37 @@ ul img:hover {
 .left-title {
 	float: right;
 	margin-top: -4em;
-	background-color: #06AD62;
-	padding: 1em 1em 1em 4em;
+	background-color: #389981;
+	padding: 1em 1em 1em 7em;
 	color: white;
 	margin-right: -.8em;
+	font-family: NeutraDemi;
 }
 
 .right-title {
 	float: left;
 	margin-top: -4em;
 	background-color: #0c1827;
-	padding: 1em 4em 1em 1em;
+	padding: 1em 7em 1em 1em;
 	color: white;
 	margin-left: -.65em;
+	font-family: NeutraDemi;
+}
+
+.glyph-left {
+	font-size: 3.5em;
+  position: absolute;
+  margin-top: -.05em;
+  margin-left: -2.3em;
+  color: rgb(252, 254, 252);
+}
+
+.glyph-right {
+	font-size: 3.5em;
+  position: absolute;
+  margin-top: -.05em;
+  margin-left: 1.3em;
+  color: rgb(252, 254, 252);
 }
 
 .cpap-row {
@@ -198,7 +217,7 @@ ul img:hover {
 	
 	background-image: url('../imgs/cpapimg.jpg');
 	height: 30em;
-	width: 24em;
+	width: 33.3%;
 	background-size: cover;
 	position: relative;
 }
@@ -206,7 +225,7 @@ ul img:hover {
 .second {
 	background-image: url('../imgs/nebulizer.jpg');
 	height: 30em;
-	width: 24em;
+	width: 33.3%;
 	background-size: cover;
 	position: relative;
 }
@@ -214,7 +233,7 @@ ul img:hover {
 .third {
 	background-image: url('../imgs/airsense.jpg');
 	height: 30em;
-	width: 26em;
+	width: 33.3%;
 	background-size: cover;
 	position: relative;
 }
@@ -250,7 +269,7 @@ ul img:hover {
 }
 
 .second-row-title {
-	background-color: rgba(147, 134, 109, 0.48);
+	background-color: rgba(147, 134, 109, 0.74);
 	position: relative;
   bottom: .7em;
   width: 110%;
@@ -258,6 +277,7 @@ ul img:hover {
   padding-bottom: .5em;
   margin-left: -.5em;
   color: white;
+  font-family: NeutraDemi;
 }
 
 .second-spons {

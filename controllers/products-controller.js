@@ -15,10 +15,6 @@ angular.module('cCareApp')
 	
 	self.filterBy = '';	
 
-	if (self.filterBy == "All") {
-		return '';
-	}
-
 }])
 
 .controller('productsShowController', ['$routeParams','$scope','productService', function($routeParams,$scope,productService) {

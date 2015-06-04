@@ -2,13 +2,27 @@
 
 <!-- SEARCH BAR -->
 
-<div class="search-area">
-	<search-category></search-category>
+<div class="wow fadeIn animated row">
+	<div >
+		<img class="img-responsive p-index-img" src="imgs/cpap-header.jpg">
+	</div>
+</div>
+
+<div class="product-index-header wow fadeIn animated row">
+	<div id="p-index-title" class="col-sm-12">
+		<h1>Product Type</h1>
+	</div>
+</div>
+
+<div class="wow fadeIn animated row">
+	<div class=" search-area">
+		<search-category></search-category>
+	</div>
 </div>
 
 <div class="container portfolio-item">
 	<div class="row">
-		<div class="col-sm-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.filterBy">
+		<div class="item wow fadeIn animated col-sm-4" ng-repeat="product in productsCtrl.products | orderBy: productsCtrl.sortBy | filter: productsCtrl.filterBy">
 		<span ng-show="{{ product.onSale }}"class="sale-icon">Sale</span>
 			<a href="#/products/{{product.id}}" class="thumbnail">
                 
