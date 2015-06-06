@@ -325,7 +325,7 @@ ul img:hover {
 	display:block;
 }
 .dropdown-submenu:hover > a:after{
-	border-left-color:#ffffff;
+	/*border-left-color:#ffffff;*/
 }
 .dropdown-submenu.pull-left{
 	float:none;

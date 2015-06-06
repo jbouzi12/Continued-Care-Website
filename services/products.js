@@ -97,7 +97,7 @@ angular.module('cCareApp')
 		},
 		{
 			id:6,
-			name:'Fly-Lite Aluminum Transport Chair',
+			name:'Fly-Lite Aluminum',
 			company:'Drive',
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
@@ -133,7 +133,7 @@ angular.module('cCareApp')
 		},
 		{
 			id:8,
-			name:'SimplyGo Portable Oxygen Concentrator',
+			name:'SimplyGo',
 			company:'Philips Respironics',
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
@@ -151,7 +151,7 @@ angular.module('cCareApp')
 		},
 		{
 			id:9,
-			name:'LaserTouchOne Laser Therapy Device',
+			name:'LaserTouchOne Laser',
 			company:'Renewal Technologies',
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
@@ -187,7 +187,7 @@ angular.module('cCareApp')
 		},
 		{
 			id:11,
-			name:'Provent Sleep Apnea Therapy, 90-Day Pack',
+			name:'Provent Sleep Apnea',
 			company:'company2',
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
@@ -205,7 +205,7 @@ angular.module('cCareApp')
 		},
 		{
 			id:12,
-			name:'Trilogy100 Portable Ventilator',
+			name:'Trilogy100',
 			company:'company2',
 			img:'imgs/product.png', //Subject to change
 			description:'Designed for a more natural breathing experience, the S9 Escape Auto CPAP Machine delivers whisper-quiet therapy in a smooth waveform. This means a more restful night for both you and your partner. With its sleek contours and compact size, the S9 Escape Auto looks as natural at your bedside as a clock radio.',
